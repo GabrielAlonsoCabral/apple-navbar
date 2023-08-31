@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       <Head>
-        <title>Scrolling dark mode transition</title>
+        <title>Apple</title>
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
       <ProductSection
