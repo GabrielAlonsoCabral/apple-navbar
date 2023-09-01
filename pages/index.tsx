@@ -1,12 +1,10 @@
 import BagSVG from '@/assets/svgs/bag';
 import Logo from '@/assets/svgs/logo';
 import MagnifyGlassSVG from '@/assets/svgs/magnifyGlass';
-import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import ProductSection from './components/ProductSection';
 import BarsSVG from '@/assets/svgs/bars';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   
@@ -16,7 +14,7 @@ export default function Home() {
         <div className="mr-6 text-xl">
           <Logo width={44} height={20} />
         </div>
-        <div className="hidden lg:flex space-x-10 text-xs text-black font-semibold">
+        <div className="hidden lg:flex space-x-10 text-xs text-black">
           <div className="">Loja</div>
           <div className="">Mac</div>
           <div className="">iPad</div>
@@ -28,7 +26,7 @@ export default function Home() {
           <div className="">Acessórios</div>
           <div className="">Suporte</div>
         </div>
-        <div className="ml-6 flex space-x-2">
+        <div className="ml-6 flex space-x-0 lg:space-x-2">
           <MagnifyGlassSVG height={20} width={44} />
           <BagSVG height={20} width={44} />
           <div className='flex lg:hidden'>
